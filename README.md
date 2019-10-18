@@ -30,13 +30,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    .forEach accepts arguments in parameters and returns a new array with original data. .map is used for converting/manipulating/creating data without messing w/ the original array. 
+
 2. What is the difference between a function and a method?
+
+    A function is the program- its the piece of code that has the information that tell the computer what to do. A method is a function that belongs to an object. 
 
 3. What is closure?
 
+    It’s the chain of command. There’s global & local scope. If something is not defined within the local scope- the function will reach outside to the global scope for instruction. Nesting is used.
+
 4. Describe the four rules of the 'this' keyword.
 
+    Global/Window =If no rules apply- it applies to the window- can use strict mode
+    
+    Implicit= “automatic”, most common, the function is called by the preceding dot, applies to objects with methods
+
+    New= constructs a new object and .this points to it
+    
+    Explicit= uses the following
+    .call = pass in arguments one by one, invokes immediately
+    .apply= passes in array, invokes immediately
+    .bind= passes in arguments one by one but doesn’t invoke immediately
+
+
 5. Why do we need super() in an extended class?
+
+    They are used to inherit from a parent. Super is used for a child to inherit from parent and extend is used for a grandchild to inherit from child and parent
 
 ## Project Set up
 
