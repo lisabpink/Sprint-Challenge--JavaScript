@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What is the difference between a function and a method?
 
-    A function is the program- its the piece of code that has the information that tell the computer what to do. A method is a function that belongs to an object. 
+    A function is the program- its the piece of code that has the information that tells the computer what to do. A method is a function that belongs to an object that manipulates data and "runs the code". 
 
 3. What is closure?
 
