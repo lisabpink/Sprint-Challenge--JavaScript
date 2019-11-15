@@ -38,7 +38,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: 
+// Explanation: It is function scoped aka a one way street. Can inherit up but not inherit down. It can go from outside(global) to inside(local), but cannot go from local to global. 
 
 
 const external = "I'm outside the function";
@@ -53,3 +53,5 @@ function myFunction() {
   nestedFunction();
 }
 myFunction();
+
+
